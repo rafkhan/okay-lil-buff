@@ -1086,7 +1086,7 @@ U 1 1 6045C328
 P 3350 2750
 F 0 "J4" H 3458 2931 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3458 2840 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3350 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3350 2750 50  0001 C CNN
 F 3 "~" H 3350 2750 50  0001 C CNN
 	1    3350 2750
 	1    0    0    -1  
@@ -1097,7 +1097,7 @@ U 1 1 6045F2DB
 P 3350 4550
 F 0 "J5" H 3458 4731 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3458 4640 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3350 4550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3350 4550 50  0001 C CNN
 F 3 "~" H 3350 4550 50  0001 C CNN
 	1    3350 4550
 	1    0    0    -1  
@@ -1108,7 +1108,7 @@ U 1 1 602BC1E0
 P 8750 2700
 F 0 "J12" H 8858 2881 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 8858 2790 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8750 2700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8750 2700 50  0001 C CNN
 F 3 "~" H 8750 2700 50  0001 C CNN
 	1    8750 2700
 	1    0    0    -1  
@@ -1119,7 +1119,7 @@ U 1 1 602C113E
 P 8750 4500
 F 0 "J13" H 8858 4681 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 8858 4590 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8750 4500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8750 4500 50  0001 C CNN
 F 3 "~" H 8750 4500 50  0001 C CNN
 	1    8750 4500
 	1    0    0    -1  
