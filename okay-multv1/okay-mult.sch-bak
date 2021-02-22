@@ -471,7 +471,7 @@ Text Label 2500 2050 0    50   ~ 0
 A
 Text Label 2500 3050 0    50   ~ 0
 B
-Text Label 2500 4050 0    50   ~ 0
+Text Label 2850 4050 0    50   ~ 0
 C
 $Comp
 L Connector:Conn_01x02_Female J3
@@ -513,8 +513,6 @@ Wire Wire Line
 	2500 3050 3000 3050
 Wire Wire Line
 	3000 3050 3000 3450
-Wire Wire Line
-	3650 5000 4800 5000
 Wire Wire Line
 	3650 4650 3550 4650
 Wire Wire Line
@@ -570,27 +568,27 @@ Wire Wire Line
 $Comp
 L power:GND #PWR08
 U 1 1 602E4CC3
-P 4600 4650
-F 0 "#PWR08" H 4600 4400 50  0001 C CNN
-F 1 "GND" H 4605 4477 50  0000 C CNN
-F 2 "" H 4600 4650 50  0001 C CNN
-F 3 "" H 4600 4650 50  0001 C CNN
-	1    4600 4650
+P 5450 900
+F 0 "#PWR08" H 5450 650 50  0001 C CNN
+F 1 "GND" H 5455 727 50  0000 C CNN
+F 2 "" H 5450 900 50  0001 C CNN
+F 3 "" H 5450 900 50  0001 C CNN
+	1    5450 900 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4600 4900 4600 4650
+	5450 1150 5450 900 
 Wire Wire Line
-	4800 4900 4600 4900
+	5650 1150 5450 1150
 $Comp
 L Connector:AudioJack2_SwitchT J9
 U 1 1 6028594C
-P 5000 5000
-F 0 "J9" H 5032 5325 50  0000 C CNN
-F 1 "Thonkiconn" H 5032 5234 50  0000 C CNN
-F 2 "Connector_Audio:RAF__Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5000 5000 50  0001 C CNN
-F 3 "~" H 5000 5000 50  0001 C CNN
-	1    5000 5000
+P 5850 1250
+F 0 "J9" H 5882 1575 50  0000 C CNN
+F 1 "Thonkiconn" H 5882 1484 50  0000 C CNN
+F 2 "Connector_Audio:RAF__Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 5850 1250 50  0001 C CNN
+F 3 "~" H 5850 1250 50  0001 C CNN
+	1    5850 1250
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -619,36 +617,32 @@ Text Label 4300 3150 2    50   ~ 0
 A
 Text Label 4300 4150 2    50   ~ 0
 B
-Text Label 4300 5000 2    50   ~ 0
-C
-Wire Wire Line
-	5400 900  5050 900 
 Text Label 9950 2100 2    50   ~ 0
 IN_A
 $Comp
 L power:GND #PWR04
 U 1 1 602E3CBA
-P 6150 1150
-F 0 "#PWR04" H 6150 900 50  0001 C CNN
-F 1 "GND" H 6155 977 50  0000 C CNN
-F 2 "" H 6150 1150 50  0001 C CNN
-F 3 "" H 6150 1150 50  0001 C CNN
-	1    6150 1150
+P 5250 5250
+F 0 "#PWR04" H 5250 5000 50  0001 C CNN
+F 1 "GND" H 5255 5077 50  0000 C CNN
+F 2 "" H 5250 5250 50  0001 C CNN
+F 3 "" H 5250 5250 50  0001 C CNN
+	1    5250 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 900  6150 1150
+	5250 5000 5250 5250
 Wire Wire Line
-	6000 900  6150 900 
+	5100 5000 5250 5000
 $Comp
 L Device:LED_Dual_2pin D1
 U 1 1 602DE1F9
-P 5700 900
-F 0 "D1" H 5700 1296 50  0000 C CNN
-F 1 "LED_Dual_2pin" H 5700 1205 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 5700 900 50  0001 C CNN
-F 3 "~" H 5700 900 50  0001 C CNN
-	1    5700 900 
+P 4800 5000
+F 0 "D1" H 4800 5396 50  0000 C CNN
+F 1 "LED_Dual_2pin" H 4800 5305 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4800 5000 50  0001 C CNN
+F 3 "~" H 4800 5000 50  0001 C CNN
+	1    4800 5000
 	1    0    0    -1  
 $EndComp
 Text Label 9950 2000 2    50   ~ 0
@@ -887,8 +881,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 3000 8400 3400
 Wire Wire Line
-	9050 4950 10200 4950
-Wire Wire Line
 	9050 4600 8950 4600
 Wire Wire Line
 	9050 4950 9050 4600
@@ -935,27 +927,27 @@ Wire Wire Line
 $Comp
 L power:GND #PWR013
 U 1 1 60681D77
-P 10000 4600
-F 0 "#PWR013" H 10000 4350 50  0001 C CNN
-F 1 "GND" H 10005 4427 50  0000 C CNN
-F 2 "" H 10000 4600 50  0001 C CNN
-F 3 "" H 10000 4600 50  0001 C CNN
-	1    10000 4600
+P 9750 700
+F 0 "#PWR013" H 9750 450 50  0001 C CNN
+F 1 "GND" H 9755 527 50  0000 C CNN
+F 2 "" H 9750 700 50  0001 C CNN
+F 3 "" H 9750 700 50  0001 C CNN
+	1    9750 700 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10000 4850 10000 4600
+	9750 950  9750 700 
 Wire Wire Line
-	10200 4850 10000 4850
+	9950 950  9750 950 
 $Comp
 L Connector:AudioJack2_SwitchT J16
 U 1 1 60681D7F
-P 10400 4950
-F 0 "J16" H 10432 5275 50  0000 C CNN
-F 1 "Thonkiconn" H 10432 5184 50  0000 C CNN
-F 2 "Connector_Audio:RAF__Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 10400 4950 50  0001 C CNN
-F 3 "~" H 10400 4950 50  0001 C CNN
-	1    10400 4950
+P 10150 1050
+F 0 "J16" H 10182 1375 50  0000 C CNN
+F 1 "Thonkiconn" H 10182 1284 50  0000 C CNN
+F 2 "Connector_Audio:RAF__Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 10150 1050 50  0001 C CNN
+F 3 "~" H 10150 1050 50  0001 C CNN
+	1    10150 1050
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -989,49 +981,36 @@ Wire Wire Line
 	9500 2700 9500 2300
 Text Label 9500 2300 2    50   ~ 0
 IN_B
-Text Label 2750 5050 0    50   ~ 0
-LED_A
-Text Label 5050 900  2    50   ~ 0
-LED_A
-Wire Wire Line
-	10050 950  9700 950 
+Text Label 2600 5050 0    50   ~ 0
+D
+Text Label 5550 1250 0    50   ~ 0
+D
 $Comp
 L power:GND #PWR09
 U 1 1 606E602E
-P 10800 1200
-F 0 "#PWR09" H 10800 950 50  0001 C CNN
-F 1 "GND" H 10805 1027 50  0000 C CNN
-F 2 "" H 10800 1200 50  0001 C CNN
-F 3 "" H 10800 1200 50  0001 C CNN
-	1    10800 1200
+P 10850 5200
+F 0 "#PWR09" H 10850 4950 50  0001 C CNN
+F 1 "GND" H 10855 5027 50  0000 C CNN
+F 2 "" H 10850 5200 50  0001 C CNN
+F 3 "" H 10850 5200 50  0001 C CNN
+	1    10850 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10650 950  10800 950 
-$Comp
-L Device:LED_Dual_2pin D2
-U 1 1 606E6035
-P 10350 950
-F 0 "D2" H 10350 1346 50  0000 C CNN
-F 1 "LED_Dual_2pin" H 10350 1255 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 10350 950 50  0001 C CNN
-F 3 "~" H 10350 950 50  0001 C CNN
-	1    10350 950 
-	1    0    0    -1  
-$EndComp
-Text Label 9700 950  2    50   ~ 0
-LED_B
+	10700 4950 10850 4950
+Text Label 9600 4950 0    50   ~ 0
+H
 Text Label 8150 5000 0    50   ~ 0
-LED_B
+H
 Wire Wire Line
-	10800 1200 10800 950 
+	10850 5200 10850 4950
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 60302441
 P 1450 6950
 F 0 "J1" H 1500 7367 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1500 7276 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 1450 6950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1450 6950 50  0001 C CNN
 F 3 "~" H 1450 6950 50  0001 C CNN
 	1    1450 6950
 	1    0    0    -1  
@@ -1076,10 +1055,6 @@ F 3 "~" H 8150 5300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8150 5000 8150 5100
-Wire Wire Line
-	5050 1050 5050 900 
-Wire Wire Line
-	9700 1100 9700 950 
 $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 6045C328
@@ -1123,17 +1098,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8750 4500 50 
 F 3 "~" H 8750 4500 50  0001 C CNN
 	1    8750 4500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J19
-U 1 1 6030426C
-P 5050 1250
-F 0 "J19" V 5204 1162 50  0000 R CNN
-F 1 "Conn_01x01_Male" V 5113 1162 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5050 1250 50  0001 C CNN
-F 3 "~" H 5050 1250 50  0001 C CNN
-	1    5050 1250
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Female J22
@@ -1212,12 +1176,59 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Male J24
 U 1 1 603078AA
-P 9700 1300
-F 0 "J24" V 9854 1212 50  0000 R CNN
-F 1 "Conn_01x01_Male" V 9763 1212 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9700 1300 50  0001 C CNN
-F 3 "~" H 9700 1300 50  0001 C CNN
-	1    9700 1300
-	0    -1   -1   0   
+P 9300 1050
+F 0 "J24" H 8850 1050 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 9363 962 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9300 1050 50  0001 C CNN
+F 3 "~" H 9300 1050 50  0001 C CNN
+	1    9300 1050
+	1    0    0    -1  
 $EndComp
+Text Label 4400 5000 2    50   ~ 0
+C
+$Comp
+L Connector:Conn_01x01_Male J19
+U 1 1 6030426C
+P 5300 1250
+F 0 "J19" H 5050 1250 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 5550 1150 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5300 1250 50  0001 C CNN
+F 3 "~" H 5300 1250 50  0001 C CNN
+	1    5300 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1250 5650 1250
+Wire Wire Line
+	3650 5000 4500 5000
+$Comp
+L power:GND #PWR0102
+U 1 1 6037D22A
+P 4600 2200
+F 0 "#PWR0102" H 4600 1950 50  0001 C CNN
+F 1 "GND" H 4605 2027 50  0000 C CNN
+F 2 "" H 4600 2200 50  0001 C CNN
+F 3 "" H 4600 2200 50  0001 C CNN
+	1    4600 2200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2100 4600 2100
+Wire Wire Line
+	4600 2100 4600 2200
+Wire Wire Line
+	9050 4950 10100 4950
+$Comp
+L Device:LED_Dual_2pin D2
+U 1 1 606E6035
+P 10400 4950
+F 0 "D2" H 10400 5346 50  0000 C CNN
+F 1 "LED_Dual_2pin" H 10400 5255 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 10400 4950 50  0001 C CNN
+F 3 "~" H 10400 4950 50  0001 C CNN
+	1    10400 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1050 9950 1050
 $EndSCHEMATC
